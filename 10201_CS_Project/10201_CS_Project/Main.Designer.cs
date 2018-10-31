@@ -264,6 +264,7 @@
             this.btnWeek07.TabIndex = 54;
             this.btnWeek07.Text = "基本運算";
             this.btnWeek07.UseVisualStyleBackColor = true;
+            this.btnWeek07.Click += new System.EventHandler(this.btnWeek07_Click);
             // 
             // label9
             // 
