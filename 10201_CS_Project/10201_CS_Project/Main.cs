@@ -27,5 +27,12 @@ namespace _10201_CS_Project
             timer1.Interval = 100;
             timer1.Enabled = true;
         }
+
+        private void btnWeek01_Click(object sender, EventArgs e)
+        {
+            Week01 object1 = new Week01();
+            this.Visible = false;
+            object1.Visible = true;
+        }
     }
 }

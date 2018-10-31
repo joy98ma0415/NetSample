@@ -38,5 +38,10 @@ namespace _10201_CS_Project
             }
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello, Welcome to my project~");
+        }
     }
 }

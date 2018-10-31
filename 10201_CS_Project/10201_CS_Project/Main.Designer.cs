@@ -122,6 +122,7 @@
             this.btnWeek01.TabIndex = 70;
             this.btnWeek01.Text = "打招呼";
             this.btnWeek01.UseVisualStyleBackColor = true;
+            this.btnWeek01.Click += new System.EventHandler(this.btnWeek01_Click);
             // 
             // label16
             // 
