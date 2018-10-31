@@ -327,6 +327,7 @@
             this.btnWeek09.TabIndex = 48;
             this.btnWeek09.Text = "99乘法表";
             this.btnWeek09.UseVisualStyleBackColor = true;
+            this.btnWeek09.Click += new System.EventHandler(this.btnWeek09_Click);
             // 
             // label6
             // 
