@@ -138,6 +138,12 @@
     <Compile Include="Week13.Designer.cs">
       <DependentUpon>Week13.cs</DependentUpon>
     </Compile>
+    <Compile Include="Week14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Week14.Designer.cs">
+      <DependentUpon>Week14.cs</DependentUpon>
+    </Compile>
     <Compile Include="Week16.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -198,6 +204,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Week13.resx">
       <DependentUpon>Week13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Week14.resx">
+      <DependentUpon>Week14.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Week16.resx">
       <DependentUpon>Week16.cs</DependentUpon>

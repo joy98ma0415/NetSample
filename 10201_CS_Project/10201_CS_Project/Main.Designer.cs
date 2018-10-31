@@ -352,6 +352,7 @@
             this.btnWeek14.TabIndex = 46;
             this.btnWeek14.Text = "判斷偶數";
             this.btnWeek14.UseVisualStyleBackColor = true;
+            this.btnWeek14.Click += new System.EventHandler(this.btnWeek14_Click);
             // 
             // lblWeek04
             // 
