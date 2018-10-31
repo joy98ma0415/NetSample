@@ -184,6 +184,7 @@
             this.btnWeek16.TabIndex = 62;
             this.btnWeek16.Text = "樂透遊戲";
             this.btnWeek16.UseVisualStyleBackColor = true;
+            this.btnWeek16.Click += new System.EventHandler(this.btnWeek16_Click);
             // 
             // label13
             // 
