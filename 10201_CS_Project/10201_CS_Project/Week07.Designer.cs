@@ -203,7 +203,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblOperand1);
             this.Name = "Week07";
-            this.Text = "Week07";
+            this.Text = "第七周 多選一條件敘述 -- 基本運算";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
