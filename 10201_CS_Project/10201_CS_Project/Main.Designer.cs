@@ -393,6 +393,7 @@
             this.btnWeek03.TabIndex = 41;
             this.btnWeek03.Text = "圖片輪播";
             this.btnWeek03.UseVisualStyleBackColor = true;
+            this.btnWeek03.Click += new System.EventHandler(this.btnWeek03_Click);
             // 
             // btnWeek02
             // 

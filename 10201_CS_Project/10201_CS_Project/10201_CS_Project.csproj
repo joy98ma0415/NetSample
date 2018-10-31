@@ -78,6 +78,12 @@
     <Compile Include="Week02.Designer.cs">
       <DependentUpon>Week02.cs</DependentUpon>
     </Compile>
+    <Compile Include="Week03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Week03.Designer.cs">
+      <DependentUpon>Week03.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AboutFrm.resx">
       <DependentUpon>AboutFrm.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Week02.resx">
       <DependentUpon>Week02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Week03.resx">
+      <DependentUpon>Week03.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
