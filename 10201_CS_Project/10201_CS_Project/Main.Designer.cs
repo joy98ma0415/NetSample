@@ -244,6 +244,7 @@
             this.btnWeek08.TabIndex = 56;
             this.btnWeek08.Text = "季節判斷";
             this.btnWeek08.UseVisualStyleBackColor = true;
+            this.btnWeek08.Click += new System.EventHandler(this.btnWeek08_Click);
             // 
             // label10
             // 
