@@ -203,6 +203,7 @@
             this.btnWeek05.TabIndex = 60;
             this.btnWeek05.Text = "便當統計";
             this.btnWeek05.UseVisualStyleBackColor = true;
+            this.btnWeek05.Click += new System.EventHandler(this.btnWeek05_Click);
             // 
             // label12
             // 
