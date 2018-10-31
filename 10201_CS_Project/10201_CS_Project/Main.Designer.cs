@@ -143,6 +143,7 @@
             this.btnWeek13.TabIndex = 66;
             this.btnWeek13.Text = "錢幣兌換";
             this.btnWeek13.UseVisualStyleBackColor = true;
+            this.btnWeek13.Click += new System.EventHandler(this.btnWeek13_Click);
             // 
             // label15
             // 
