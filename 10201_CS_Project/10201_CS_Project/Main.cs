@@ -132,5 +132,10 @@ namespace _10201_CS_Project
             this.Visible = false;
             object15.Visible = true;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
