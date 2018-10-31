@@ -164,6 +164,7 @@
             this.btnWeek15.TabIndex = 64;
             this.btnWeek15.Text = "猜數字";
             this.btnWeek15.UseVisualStyleBackColor = true;
+            this.btnWeek15.Click += new System.EventHandler(this.btnWeek15_Click);
             // 
             // label14
             // 
