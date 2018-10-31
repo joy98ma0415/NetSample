@@ -308,6 +308,7 @@
             this.btnWeek12.TabIndex = 50;
             this.btnWeek12.Text = "複利計算";
             this.btnWeek12.UseVisualStyleBackColor = true;
+            this.btnWeek12.Click += new System.EventHandler(this.btnWeek12_Click);
             // 
             // label7
             // 
