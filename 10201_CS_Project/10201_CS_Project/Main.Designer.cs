@@ -383,6 +383,7 @@
             this.btnWeek04.TabIndex = 42;
             this.btnWeek04.Text = "會員資訊";
             this.btnWeek04.UseVisualStyleBackColor = true;
+            this.btnWeek04.Click += new System.EventHandler(this.btnWeek04_Click);
             // 
             // btnWeek03
             // 

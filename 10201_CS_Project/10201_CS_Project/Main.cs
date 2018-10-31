@@ -48,5 +48,12 @@ namespace _10201_CS_Project
             this.Visible = false;
             object3.Visible = true;
         }
+
+        private void btnWeek04_Click(object sender, EventArgs e)
+        {
+            Week04 object4 = new Week04();
+            this.Visible = false;
+            object4.Visible = true;
+        }
     }
 }
