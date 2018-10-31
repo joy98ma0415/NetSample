@@ -403,6 +403,7 @@
             this.btnWeek02.TabIndex = 40;
             this.btnWeek02.Text = "計算年齡";
             this.btnWeek02.UseVisualStyleBackColor = true;
+            this.btnWeek02.Click += new System.EventHandler(this.btnWeek02_Click);
             // 
             // lblWeek01
             // 
