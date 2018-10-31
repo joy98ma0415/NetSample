@@ -224,6 +224,7 @@
             this.btnWeek11.TabIndex = 58;
             this.btnWeek11.Text = "攝氏華氏轉換";
             this.btnWeek11.UseVisualStyleBackColor = true;
+            this.btnWeek11.Click += new System.EventHandler(this.btnWeek11_Click);
             // 
             // label11
             // 
