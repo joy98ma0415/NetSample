@@ -284,6 +284,7 @@
             this.btnWeek06.TabIndex = 52;
             this.btnWeek06.Text = "邏輯運算子判斷";
             this.btnWeek06.UseVisualStyleBackColor = true;
+            this.btnWeek06.Click += new System.EventHandler(this.btnWeek06_Click);
             // 
             // label8
             // 
