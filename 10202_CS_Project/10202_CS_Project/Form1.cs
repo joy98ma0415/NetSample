@@ -31,6 +31,8 @@ namespace _10202_CS_Project
         {
             timer1.Interval = 100;
             timer1.Enabled = true;
+
+            MessageBox.Show("Hello, Welcome to my project");
         }
     }
 }
