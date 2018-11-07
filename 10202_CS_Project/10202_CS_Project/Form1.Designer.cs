@@ -411,6 +411,7 @@
             this.btnWeek04.TabIndex = 42;
             this.btnWeek04.Text = "簡易瀏覽器";
             this.btnWeek04.UseVisualStyleBackColor = true;
+            this.btnWeek04.Click += new System.EventHandler(this.btnWeek04_Click);
             // 
             // btnWeek05
             // 
