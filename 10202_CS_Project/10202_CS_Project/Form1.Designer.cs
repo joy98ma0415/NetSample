@@ -271,6 +271,7 @@
             this.btnWeek08.TabIndex = 56;
             this.btnWeek08.Text = "多媒體撥放器";
             this.btnWeek08.UseVisualStyleBackColor = true;
+            this.btnWeek08.Click += new System.EventHandler(this.btnWeek08_Click);
             // 
             // label10
             // 
