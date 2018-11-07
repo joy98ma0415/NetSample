@@ -142,12 +142,14 @@
             // 
             // btnWeek01
             // 
-            this.btnWeek01.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnWeek01.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnWeek01.Location = new System.Drawing.Point(17, 36);
             this.btnWeek01.Name = "btnWeek01";
             this.btnWeek01.Size = new System.Drawing.Size(147, 63);
             this.btnWeek01.TabIndex = 70;
+            this.btnWeek01.Text = "計算機";
             this.btnWeek01.UseVisualStyleBackColor = true;
+            this.btnWeek01.Click += new System.EventHandler(this.btnWeek01_Click);
             // 
             // label16
             // 
@@ -161,11 +163,12 @@
             // 
             // btnWeek13
             // 
-            this.btnWeek13.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnWeek13.Font = new System.Drawing.Font("標楷體", 18F);
             this.btnWeek13.Location = new System.Drawing.Point(487, 396);
             this.btnWeek13.Name = "btnWeek13";
             this.btnWeek13.Size = new System.Drawing.Size(147, 63);
             this.btnWeek13.TabIndex = 66;
+            this.btnWeek13.Text = "井字遊戲";
             this.btnWeek13.UseVisualStyleBackColor = true;
             // 
             // label15
@@ -180,11 +183,12 @@
             // 
             // btnWeek15
             // 
-            this.btnWeek15.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnWeek15.Font = new System.Drawing.Font("標楷體", 18F);
             this.btnWeek15.Location = new System.Drawing.Point(722, 156);
             this.btnWeek15.Name = "btnWeek15";
             this.btnWeek15.Size = new System.Drawing.Size(147, 63);
             this.btnWeek15.TabIndex = 64;
+            this.btnWeek15.Text = "記憶大考驗";
             this.btnWeek15.UseVisualStyleBackColor = true;
             // 
             // label14
@@ -199,7 +203,7 @@
             // 
             // btnWeek16
             // 
-            this.btnWeek16.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnWeek16.Font = new System.Drawing.Font("標楷體", 18F);
             this.btnWeek16.Location = new System.Drawing.Point(722, 276);
             this.btnWeek16.Name = "btnWeek16";
             this.btnWeek16.Size = new System.Drawing.Size(147, 63);
@@ -218,11 +222,12 @@
             // 
             // btnWeek05
             // 
-            this.btnWeek05.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnWeek05.Font = new System.Drawing.Font("標楷體", 18F);
             this.btnWeek05.Location = new System.Drawing.Point(252, 36);
             this.btnWeek05.Name = "btnWeek05";
             this.btnWeek05.Size = new System.Drawing.Size(147, 63);
             this.btnWeek05.TabIndex = 60;
+            this.btnWeek05.Text = "文字方塊移動";
             this.btnWeek05.UseVisualStyleBackColor = true;
             // 
             // label12
@@ -237,11 +242,12 @@
             // 
             // btnWeek11
             // 
-            this.btnWeek11.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnWeek11.Font = new System.Drawing.Font("標楷體", 18F);
             this.btnWeek11.Location = new System.Drawing.Point(487, 156);
             this.btnWeek11.Name = "btnWeek11";
             this.btnWeek11.Size = new System.Drawing.Size(147, 63);
             this.btnWeek11.TabIndex = 58;
+            this.btnWeek11.Text = "英數聽力";
             this.btnWeek11.UseVisualStyleBackColor = true;
             // 
             // label11
@@ -256,11 +262,12 @@
             // 
             // btnWeek08
             // 
-            this.btnWeek08.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnWeek08.Font = new System.Drawing.Font("標楷體", 18F);
             this.btnWeek08.Location = new System.Drawing.Point(252, 396);
             this.btnWeek08.Name = "btnWeek08";
             this.btnWeek08.Size = new System.Drawing.Size(147, 63);
             this.btnWeek08.TabIndex = 56;
+            this.btnWeek08.Text = "多媒體撥放器";
             this.btnWeek08.UseVisualStyleBackColor = true;
             // 
             // label10
@@ -275,11 +282,12 @@
             // 
             // btnWeek07
             // 
-            this.btnWeek07.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnWeek07.Font = new System.Drawing.Font("標楷體", 18F);
             this.btnWeek07.Location = new System.Drawing.Point(252, 276);
             this.btnWeek07.Name = "btnWeek07";
             this.btnWeek07.Size = new System.Drawing.Size(147, 63);
             this.btnWeek07.TabIndex = 54;
+            this.btnWeek07.Text = "記事本";
             this.btnWeek07.UseVisualStyleBackColor = true;
             // 
             // label9
@@ -294,11 +302,12 @@
             // 
             // btnWeek06
             // 
-            this.btnWeek06.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnWeek06.Font = new System.Drawing.Font("標楷體", 18F);
             this.btnWeek06.Location = new System.Drawing.Point(252, 156);
             this.btnWeek06.Name = "btnWeek06";
             this.btnWeek06.Size = new System.Drawing.Size(147, 63);
             this.btnWeek06.TabIndex = 52;
+            this.btnWeek06.Text = "高鐵購票系統";
             this.btnWeek06.UseVisualStyleBackColor = true;
             // 
             // label8
@@ -313,11 +322,12 @@
             // 
             // btnWeek12
             // 
-            this.btnWeek12.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnWeek12.Font = new System.Drawing.Font("標楷體", 18F);
             this.btnWeek12.Location = new System.Drawing.Point(487, 276);
             this.btnWeek12.Name = "btnWeek12";
             this.btnWeek12.Size = new System.Drawing.Size(147, 63);
             this.btnWeek12.TabIndex = 50;
+            this.btnWeek12.Text = "POS系統";
             this.btnWeek12.UseVisualStyleBackColor = true;
             // 
             // label7
@@ -332,11 +342,12 @@
             // 
             // btnWeek09
             // 
-            this.btnWeek09.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnWeek09.Font = new System.Drawing.Font("標楷體", 18F);
             this.btnWeek09.Location = new System.Drawing.Point(487, 36);
             this.btnWeek09.Name = "btnWeek09";
             this.btnWeek09.Size = new System.Drawing.Size(147, 63);
             this.btnWeek09.TabIndex = 48;
+            this.btnWeek09.Text = "小畫家";
             this.btnWeek09.UseVisualStyleBackColor = true;
             // 
             // label6
@@ -351,11 +362,12 @@
             // 
             // btnWeek14
             // 
-            this.btnWeek14.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnWeek14.Font = new System.Drawing.Font("標楷體", 18F);
             this.btnWeek14.Location = new System.Drawing.Point(722, 36);
             this.btnWeek14.Name = "btnWeek14";
             this.btnWeek14.Size = new System.Drawing.Size(147, 63);
             this.btnWeek14.TabIndex = 46;
+            this.btnWeek14.Text = "拉霸";
             this.btnWeek14.UseVisualStyleBackColor = true;
             // 
             // lblWeek04
@@ -390,29 +402,32 @@
             // 
             // btnWeek04
             // 
-            this.btnWeek04.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnWeek04.Font = new System.Drawing.Font("標楷體", 18F);
             this.btnWeek04.Location = new System.Drawing.Point(17, 396);
             this.btnWeek04.Name = "btnWeek04";
             this.btnWeek04.Size = new System.Drawing.Size(147, 63);
             this.btnWeek04.TabIndex = 42;
+            this.btnWeek04.Text = "印星號";
             this.btnWeek04.UseVisualStyleBackColor = true;
             // 
             // btnWeek03
             // 
-            this.btnWeek03.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnWeek03.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnWeek03.Location = new System.Drawing.Point(17, 276);
             this.btnWeek03.Name = "btnWeek03";
             this.btnWeek03.Size = new System.Drawing.Size(147, 63);
             this.btnWeek03.TabIndex = 41;
+            this.btnWeek03.Text = "身分證驗證";
             this.btnWeek03.UseVisualStyleBackColor = true;
             // 
             // btnWeek02
             // 
-            this.btnWeek02.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnWeek02.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnWeek02.Location = new System.Drawing.Point(17, 156);
             this.btnWeek02.Name = "btnWeek02";
             this.btnWeek02.Size = new System.Drawing.Size(147, 63);
             this.btnWeek02.TabIndex = 40;
+            this.btnWeek02.Text = "計算機";
             this.btnWeek02.UseVisualStyleBackColor = true;
             // 
             // lblWeek01

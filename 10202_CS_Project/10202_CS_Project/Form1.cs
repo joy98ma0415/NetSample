@@ -34,5 +34,12 @@ namespace _10202_CS_Project
 
             MessageBox.Show("Hello, Welcome to my project");
         }
+
+        private void btnWeek01_Click(object sender, EventArgs e)
+        {
+            Week01 obj1 = new Week01();
+            this.Visible = false;
+            obj1.Visible = true;
+        }
     }
 }
