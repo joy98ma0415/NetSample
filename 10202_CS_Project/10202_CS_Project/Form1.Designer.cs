@@ -210,6 +210,7 @@
             this.btnWeek03.TabIndex = 62;
             this.btnWeek03.Text = "最大公因數最小公倍數";
             this.btnWeek03.UseVisualStyleBackColor = true;
+            this.btnWeek03.Click += new System.EventHandler(this.btnWeek03_Click);
             // 
             // label13
             // 
@@ -408,7 +409,7 @@
             this.btnWeek04.Name = "btnWeek04";
             this.btnWeek04.Size = new System.Drawing.Size(147, 63);
             this.btnWeek04.TabIndex = 42;
-            this.btnWeek04.Text = "印星號";
+            this.btnWeek04.Text = "簡易瀏覽器";
             this.btnWeek04.UseVisualStyleBackColor = true;
             // 
             // btnWeek05
