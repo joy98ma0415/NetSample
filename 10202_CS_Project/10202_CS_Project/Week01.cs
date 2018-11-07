@@ -161,44 +161,32 @@ namespace _10202_CS_Project
 
         private void button18_Click(object sender, EventArgs e)
         {
-
+            button18.Enabled = false;
         }
 
         private void button19_Click(object sender, EventArgs e)
         {
-
+            button19.Enabled = false;
         }
 
         private void button22_Click(object sender, EventArgs e)
         {
-
+            button22.Enabled = false;
         }
 
         private void button23_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
+            button23.Enabled = false;
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
+            button20.Enabled = false;
         }
 
         private void button21_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
-        }
-
-        private void button17_Click_1(object sender, EventArgs e)
-        {
-            Form1 home = new Form1();
-            this.Visible = false;
-            home.Visible = true;
-        }
-
-        private void button21_Click_1(object sender, EventArgs e)
-        {
-
+            button21.Enabled = false;
         }
     }
 }

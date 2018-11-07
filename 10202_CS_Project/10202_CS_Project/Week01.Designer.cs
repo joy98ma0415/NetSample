@@ -377,7 +377,6 @@
             this.button17.TabIndex = 28;
             this.button17.Text = "back";
             this.button17.UseVisualStyleBackColor = false;
-            this.button17.Click += new System.EventHandler(this.button17_Click_1);
             // 
             // button20
             // 
@@ -392,6 +391,7 @@
             this.button20.Text = "x^2";
             this.button20.UseVisualStyleBackColor = false;
             this.button20.Visible = false;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // button23
             // 
@@ -406,6 +406,7 @@
             this.button23.Text = "+/-";
             this.button23.UseVisualStyleBackColor = false;
             this.button23.Visible = false;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
             // button21
             // 
@@ -420,6 +421,7 @@
             this.button21.Text = "1/x";
             this.button21.UseVisualStyleBackColor = false;
             this.button21.Visible = false;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // Week01
             // 
