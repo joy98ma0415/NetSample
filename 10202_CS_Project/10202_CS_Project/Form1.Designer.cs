@@ -44,7 +44,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.btnWeek09 = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
-            this.btnWeek11 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.btnWeek08 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
@@ -64,6 +63,7 @@
             this.btnWeek05 = new System.Windows.Forms.Button();
             this.btnWeek02 = new System.Windows.Forms.Button();
             this.lblWeek01 = new System.Windows.Forms.Label();
+            this.btnWeek11 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -243,16 +243,6 @@
             this.label12.TabIndex = 59;
             this.label12.Text = "Week11";
             // 
-            // btnWeek11
-            // 
-            this.btnWeek11.Font = new System.Drawing.Font("標楷體", 18F);
-            this.btnWeek11.Location = new System.Drawing.Point(487, 156);
-            this.btnWeek11.Name = "btnWeek11";
-            this.btnWeek11.Size = new System.Drawing.Size(147, 63);
-            this.btnWeek11.TabIndex = 58;
-            this.btnWeek11.Text = "英數聽力";
-            this.btnWeek11.UseVisualStyleBackColor = true;
-            // 
             // label11
             // 
             this.label11.AutoSize = true;
@@ -353,7 +343,7 @@
             this.btnWeek12.Name = "btnWeek12";
             this.btnWeek12.Size = new System.Drawing.Size(147, 63);
             this.btnWeek12.TabIndex = 48;
-            this.btnWeek12.Text = "小畫家";
+            this.btnWeek12.Text = "POS系統";
             this.btnWeek12.UseVisualStyleBackColor = true;
             // 
             // label6
@@ -449,6 +439,17 @@
             this.lblWeek01.TabIndex = 39;
             this.lblWeek01.Text = "Week01";
             // 
+            // btnWeek11
+            // 
+            this.btnWeek11.Font = new System.Drawing.Font("標楷體", 18F);
+            this.btnWeek11.Location = new System.Drawing.Point(487, 156);
+            this.btnWeek11.Name = "btnWeek11";
+            this.btnWeek11.Size = new System.Drawing.Size(147, 63);
+            this.btnWeek11.TabIndex = 58;
+            this.btnWeek11.Text = "小畫家";
+            this.btnWeek11.UseVisualStyleBackColor = true;
+            this.btnWeek11.Click += new System.EventHandler(this.btnWeek11_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -486,7 +487,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button btnWeek09;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Button btnWeek11;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button btnWeek08;
         private System.Windows.Forms.Label label10;
@@ -506,6 +506,7 @@
         private System.Windows.Forms.Button btnWeek05;
         private System.Windows.Forms.Button btnWeek02;
         private System.Windows.Forms.Label lblWeek01;
+        private System.Windows.Forms.Button btnWeek11;
     }
 }
 
