@@ -231,6 +231,7 @@
             this.btnWeek09.TabIndex = 60;
             this.btnWeek09.Text = "文字方塊移動";
             this.btnWeek09.UseVisualStyleBackColor = true;
+            this.btnWeek09.Click += new System.EventHandler(this.btnWeek09_Click);
             // 
             // label12
             // 
