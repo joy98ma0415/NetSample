@@ -311,6 +311,7 @@
             this.btnWeek06.TabIndex = 52;
             this.btnWeek06.Text = "高鐵購票系統";
             this.btnWeek06.UseVisualStyleBackColor = true;
+            this.btnWeek06.Click += new System.EventHandler(this.btnWeek06_Click);
             // 
             // label8
             // 
