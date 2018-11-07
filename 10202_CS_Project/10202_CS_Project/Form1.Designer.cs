@@ -422,6 +422,7 @@
             this.btnWeek05.TabIndex = 41;
             this.btnWeek05.Text = "身分證驗證";
             this.btnWeek05.UseVisualStyleBackColor = true;
+            this.btnWeek05.Click += new System.EventHandler(this.btnWeek05_Click);
             // 
             // btnWeek02
             // 

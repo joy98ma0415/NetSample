@@ -156,7 +156,9 @@ namespace _10202_CS_Project
 
         private void button17_Click(object sender, EventArgs e)
         {
-
+            Form1 home = new Form1();
+            this.Visible = false;
+            home.Visible = true;
         }
 
         private void button18_Click(object sender, EventArgs e)
