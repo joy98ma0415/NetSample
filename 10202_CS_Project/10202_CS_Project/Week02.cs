@@ -10,22 +10,48 @@ using System.Windows.Forms;
 
 namespace _10202_CS_Project
 {
-    public partial class Week01 : Form
+    public partial class Week02 : Form
     {
         decimal num1;
         decimal num2;
         string operation;
-        public Week01()
+        public Week02()
         {
             InitializeComponent();
         }
-
         private void input(string a)
         {
             if (textBox1.Text == "0")
                 textBox1.Text = a;
             else
                 textBox1.Text += a;
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text.Remove(0, 1);
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            Double a;
+            a = Convert.ToDouble(textBox1.Text) / Convert.ToDouble(100);
+            textBox1.Text = System.Convert.ToString(a);
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = (Math.Sqrt(double.Parse(textBox1.Text))).ToString();
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            long f = 1;
+            for (long i = 1; i <= long.Parse(textBox1.Text); i++)
+            {
+                f = f * i;
+            }
+            textBox1.Text = f.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -108,13 +134,25 @@ namespace _10202_CS_Project
                     textBox1.Text = (num1 % num2).ToString();
                     break;
             }
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "0";
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            num1 = decimal.Parse(textBox1.Text);
+            operation = "/";
+            textBox1.Text = "0";
 
         }
 
-        private void button15_Click(object sender, EventArgs e)
+        private void button12_Click(object sender, EventArgs e)
         {
             num1 = decimal.Parse(textBox1.Text);
-            operation = "*";
+            operation = "+";
             textBox1.Text = "0";
         }
 
@@ -125,80 +163,50 @@ namespace _10202_CS_Project
             textBox1.Text = "0";
         }
 
-        private void button12_Click(object sender, EventArgs e)
+        private void button15_Click(object sender, EventArgs e)
         {
             num1 = decimal.Parse(textBox1.Text);
-            operation = "+";
+            operation = "*";
             textBox1.Text = "0";
-        }
-
-        private void button14_Click(object sender, EventArgs e)
-        {
-            num1 = decimal.Parse(textBox1.Text);
-            operation = "/";
-            textBox1.Text = "0";
-        }
-
-        private void button25_Click(object sender, EventArgs e)
-        {
-            textBox1.Text = "0";
-        }
-
-        private void Week01_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button16_Click(object sender, EventArgs e)
-        {
-            textBox1.Text = textBox1.Text.Remove(0, 1);
         }
 
         private void button17_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button18_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button19_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button22_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button23_Click(object sender, EventArgs e)
-        {
-            this.Visible = false;
-        }
-
-        private void button20_Click(object sender, EventArgs e)
-        {
-            this.Visible = false;
-        }
-
-        private void button21_Click(object sender, EventArgs e)
-        {
-            this.Visible = false;
-        }
-
-        private void button17_Click_1(object sender, EventArgs e)
         {
             Form1 home = new Form1();
             this.Visible = false;
             home.Visible = true;
         }
 
-        private void button21_Click_1(object sender, EventArgs e)
+        private void Week02_Load(object sender, EventArgs e)
         {
+            double baseNumber = Convert.ToDouble(textBox1.Text);
+            double a = 2;
+            double result = Math.Pow(baseNumber, a);
+            textBox1.Text = result.ToString();
 
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            double a;
+            a = Convert.ToDouble(textBox1.Text) * Convert.ToDouble(textBox1.Text);
+            textBox1.Text = System.Convert.ToString(a);
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text.Contains("-"))
+                textBox1.Text = textBox1.Text.Remove(0, 1);
+            else
+                textBox1.Text = "-" + textBox1.Text;
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            double baseNumber = Convert.ToDouble(textBox1.Text);
+            double a = 1.0;
+            double result = a / baseNumber;
+            textBox1.Text = result.ToString();
         }
     }
 }
