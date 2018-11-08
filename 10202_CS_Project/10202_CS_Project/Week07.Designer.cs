@@ -45,12 +45,12 @@
             this.顏色ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.前背色ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.背景色ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.back_ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rtxtNote = new System.Windows.Forms.RichTextBox();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.fontDialog1 = new System.Windows.Forms.FontDialog();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.back_ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -181,16 +181,23 @@
             // 前背色ToolStripMenuItem
             // 
             this.前背色ToolStripMenuItem.Name = "前背色ToolStripMenuItem";
-            this.前背色ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.前背色ToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.前背色ToolStripMenuItem.Text = "前背色";
             this.前背色ToolStripMenuItem.Click += new System.EventHandler(this.前背色ToolStripMenuItem_Click);
             // 
             // 背景色ToolStripMenuItem
             // 
             this.背景色ToolStripMenuItem.Name = "背景色ToolStripMenuItem";
-            this.背景色ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.背景色ToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.背景色ToolStripMenuItem.Text = "背景色";
             this.背景色ToolStripMenuItem.Click += new System.EventHandler(this.背景色ToolStripMenuItem_Click);
+            // 
+            // back_ToolStripMenuItem
+            // 
+            this.back_ToolStripMenuItem.Name = "back_ToolStripMenuItem";
+            this.back_ToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
+            this.back_ToolStripMenuItem.Text = "離開";
+            this.back_ToolStripMenuItem.Click += new System.EventHandler(this.back_ToolStripMenuItem_Click);
             // 
             // rtxtNote
             // 
@@ -203,13 +210,6 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // back_ToolStripMenuItem
-            // 
-            this.back_ToolStripMenuItem.Name = "back_ToolStripMenuItem";
-            this.back_ToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
-            this.back_ToolStripMenuItem.Text = "back";
-            this.back_ToolStripMenuItem.Click += new System.EventHandler(this.back_ToolStripMenuItem_Click);
             // 
             // Week07
             // 

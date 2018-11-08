@@ -51,5 +51,12 @@ namespace _10202_CS_Project
         {
             toolStripComboBoxUrl.Text = webBrowser.Url.ToString();
         }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            Form1 home = new Form1();
+            this.Visible = false;
+            home.Visible = true;
+        }
     }
 }

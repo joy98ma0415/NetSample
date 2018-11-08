@@ -179,18 +179,15 @@ namespace _10202_CS_Project
 
         private void Week02_Load(object sender, EventArgs e)
         {
-            double baseNumber = Convert.ToDouble(textBox1.Text);
-            double a = 2;
-            double result = Math.Pow(baseNumber, a);
-            textBox1.Text = result.ToString();
 
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
-            double a;
-            a = Convert.ToDouble(textBox1.Text) * Convert.ToDouble(textBox1.Text);
-            textBox1.Text = System.Convert.ToString(a);
+            double baseNumber = Convert.ToDouble(textBox1.Text);
+            double a = 2;
+            double result = Math.Pow(baseNumber, a);
+            textBox1.Text = result.ToString();
         }
 
         private void button23_Click(object sender, EventArgs e)
@@ -207,6 +204,15 @@ namespace _10202_CS_Project
             double a = 1.0;
             double result = a / baseNumber;
             textBox1.Text = result.ToString();
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            double baseNumber = Convert.ToDouble(textBox1.Text);
+            double a = 3;
+            double result = Math.Pow(baseNumber, a);
+            textBox1.Text = result.ToString();
+
         }
     }
 }

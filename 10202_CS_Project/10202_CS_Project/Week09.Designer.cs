@@ -192,7 +192,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 25);
             this.button1.TabIndex = 8;
-            this.button1.Text = "back";
+            this.button1.Text = "離開";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -209,6 +209,7 @@
             this.Controls.Add(this.toggleButton);
             this.Name = "Week09";
             this.Text = "第九周 文字方塊移動";
+            this.Load += new System.EventHandler(this.Week09_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

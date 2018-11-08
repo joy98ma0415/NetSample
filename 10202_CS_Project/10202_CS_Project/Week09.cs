@@ -64,5 +64,10 @@ namespace _10202_CS_Project
             this.Visible = false;
             home.Visible = true;
         }
+
+        private void Week09_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

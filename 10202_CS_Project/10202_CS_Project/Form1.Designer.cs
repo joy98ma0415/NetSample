@@ -35,15 +35,10 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnWeek01 = new System.Windows.Forms.Button();
-            this.label16 = new System.Windows.Forms.Label();
-            this.btnWeek14 = new System.Windows.Forms.Button();
-            this.label15 = new System.Windows.Forms.Label();
-            this.btnWeek15 = new System.Windows.Forms.Button();
-            this.label14 = new System.Windows.Forms.Label();
             this.btnWeek03 = new System.Windows.Forms.Button();
-            this.label13 = new System.Windows.Forms.Label();
             this.btnWeek09 = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
+            this.btnWeek11 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.btnWeek08 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
@@ -51,11 +46,9 @@
             this.label9 = new System.Windows.Forms.Label();
             this.btnWeek06 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
-            this.btnWeek13 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.btnWeek12 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.btnWeek16 = new System.Windows.Forms.Button();
             this.lblWeek04 = new System.Windows.Forms.Label();
             this.lblWeek03 = new System.Windows.Forms.Label();
             this.lblWeek02 = new System.Windows.Forms.Label();
@@ -63,7 +56,6 @@
             this.btnWeek05 = new System.Windows.Forms.Button();
             this.btnWeek02 = new System.Windows.Forms.Button();
             this.lblWeek01 = new System.Windows.Forms.Label();
-            this.btnWeek11 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,7 +70,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(814, 12);
+            this.button1.Location = new System.Drawing.Point(566, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(108, 40);
             this.button1.TabIndex = 81;
@@ -91,7 +83,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("標楷體", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Maroon;
-            this.label1.Location = new System.Drawing.Point(199, 55);
+            this.label1.Location = new System.Drawing.Point(75, 55);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(537, 35);
             this.label1.TabIndex = 80;
@@ -104,13 +96,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.btnWeek01);
-            this.groupBox1.Controls.Add(this.label16);
-            this.groupBox1.Controls.Add(this.btnWeek14);
-            this.groupBox1.Controls.Add(this.label15);
-            this.groupBox1.Controls.Add(this.btnWeek15);
-            this.groupBox1.Controls.Add(this.label14);
             this.groupBox1.Controls.Add(this.btnWeek03);
-            this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.btnWeek09);
             this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.btnWeek11);
@@ -121,11 +107,9 @@
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.btnWeek06);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.btnWeek13);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.btnWeek12);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.btnWeek16);
             this.groupBox1.Controls.Add(this.lblWeek04);
             this.groupBox1.Controls.Add(this.lblWeek03);
             this.groupBox1.Controls.Add(this.lblWeek02);
@@ -136,7 +120,7 @@
             this.groupBox1.Font = new System.Drawing.Font("標楷體", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.groupBox1.Location = new System.Drawing.Point(16, 97);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(906, 473);
+            this.groupBox1.Size = new System.Drawing.Size(654, 473);
             this.groupBox1.TabIndex = 83;
             this.groupBox1.TabStop = false;
             // 
@@ -151,56 +135,6 @@
             this.btnWeek01.UseVisualStyleBackColor = true;
             this.btnWeek01.Click += new System.EventHandler(this.btnWeek01_Click);
             // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label16.Location = new System.Drawing.Point(718, 253);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(74, 20);
-            this.label16.TabIndex = 67;
-            this.label16.Text = "Week16";
-            // 
-            // btnWeek14
-            // 
-            this.btnWeek14.Font = new System.Drawing.Font("標楷體", 18F);
-            this.btnWeek14.Location = new System.Drawing.Point(722, 36);
-            this.btnWeek14.Name = "btnWeek14";
-            this.btnWeek14.Size = new System.Drawing.Size(147, 63);
-            this.btnWeek14.TabIndex = 66;
-            this.btnWeek14.Text = "井字遊戲";
-            this.btnWeek14.UseVisualStyleBackColor = true;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label15.Location = new System.Drawing.Point(718, 133);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(74, 20);
-            this.label15.TabIndex = 65;
-            this.label15.Text = "Week15";
-            // 
-            // btnWeek15
-            // 
-            this.btnWeek15.Font = new System.Drawing.Font("標楷體", 18F);
-            this.btnWeek15.Location = new System.Drawing.Point(722, 156);
-            this.btnWeek15.Name = "btnWeek15";
-            this.btnWeek15.Size = new System.Drawing.Size(147, 63);
-            this.btnWeek15.TabIndex = 64;
-            this.btnWeek15.Text = "記憶大考驗";
-            this.btnWeek15.UseVisualStyleBackColor = true;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label14.Location = new System.Drawing.Point(718, 13);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(74, 20);
-            this.label14.TabIndex = 63;
-            this.label14.Text = "Week14";
-            // 
             // btnWeek03
             // 
             this.btnWeek03.Font = new System.Drawing.Font("標楷體", 18F);
@@ -211,16 +145,6 @@
             this.btnWeek03.Text = "最大公因數最小公倍數";
             this.btnWeek03.UseVisualStyleBackColor = true;
             this.btnWeek03.Click += new System.EventHandler(this.btnWeek03_Click);
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label13.Location = new System.Drawing.Point(483, 373);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(74, 20);
-            this.label13.TabIndex = 61;
-            this.label13.Text = "Week13";
             // 
             // btnWeek09
             // 
@@ -242,6 +166,17 @@
             this.label12.Size = new System.Drawing.Size(74, 20);
             this.label12.TabIndex = 59;
             this.label12.Text = "Week11";
+            // 
+            // btnWeek11
+            // 
+            this.btnWeek11.Font = new System.Drawing.Font("標楷體", 18F);
+            this.btnWeek11.Location = new System.Drawing.Point(487, 156);
+            this.btnWeek11.Name = "btnWeek11";
+            this.btnWeek11.Size = new System.Drawing.Size(147, 63);
+            this.btnWeek11.TabIndex = 58;
+            this.btnWeek11.Text = "小畫家";
+            this.btnWeek11.UseVisualStyleBackColor = true;
+            this.btnWeek11.Click += new System.EventHandler(this.btnWeek11_Click);
             // 
             // label11
             // 
@@ -316,16 +251,6 @@
             this.label8.TabIndex = 51;
             this.label8.Text = "Week12";
             // 
-            // btnWeek13
-            // 
-            this.btnWeek13.Font = new System.Drawing.Font("標楷體", 18F);
-            this.btnWeek13.Location = new System.Drawing.Point(487, 396);
-            this.btnWeek13.Name = "btnWeek13";
-            this.btnWeek13.Size = new System.Drawing.Size(147, 63);
-            this.btnWeek13.TabIndex = 50;
-            this.btnWeek13.Text = "POS系統";
-            this.btnWeek13.UseVisualStyleBackColor = true;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -343,8 +268,9 @@
             this.btnWeek12.Name = "btnWeek12";
             this.btnWeek12.Size = new System.Drawing.Size(147, 63);
             this.btnWeek12.TabIndex = 48;
-            this.btnWeek12.Text = "POS系統";
+            this.btnWeek12.Text = "登入系統";
             this.btnWeek12.UseVisualStyleBackColor = true;
+            this.btnWeek12.Click += new System.EventHandler(this.btnWeek12_Click);
             // 
             // label6
             // 
@@ -355,16 +281,6 @@
             this.label6.Size = new System.Drawing.Size(74, 20);
             this.label6.TabIndex = 47;
             this.label6.Text = "Week05";
-            // 
-            // btnWeek16
-            // 
-            this.btnWeek16.Font = new System.Drawing.Font("標楷體", 18F);
-            this.btnWeek16.Location = new System.Drawing.Point(722, 276);
-            this.btnWeek16.Name = "btnWeek16";
-            this.btnWeek16.Size = new System.Drawing.Size(147, 63);
-            this.btnWeek16.TabIndex = 46;
-            this.btnWeek16.Text = "拉霸";
-            this.btnWeek16.UseVisualStyleBackColor = true;
             // 
             // lblWeek04
             // 
@@ -439,23 +355,12 @@
             this.lblWeek01.TabIndex = 39;
             this.lblWeek01.Text = "Week01";
             // 
-            // btnWeek11
-            // 
-            this.btnWeek11.Font = new System.Drawing.Font("標楷體", 18F);
-            this.btnWeek11.Location = new System.Drawing.Point(487, 156);
-            this.btnWeek11.Name = "btnWeek11";
-            this.btnWeek11.Size = new System.Drawing.Size(147, 63);
-            this.btnWeek11.TabIndex = 58;
-            this.btnWeek11.Text = "小畫家";
-            this.btnWeek11.UseVisualStyleBackColor = true;
-            this.btnWeek11.Click += new System.EventHandler(this.btnWeek11_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.NavajoWhite;
-            this.ClientSize = new System.Drawing.Size(934, 581);
+            this.ClientSize = new System.Drawing.Size(686, 581);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblTime);
             this.Controls.Add(this.button1);
@@ -478,13 +383,7 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnWeek01;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Button btnWeek14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Button btnWeek15;
-        private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Button btnWeek03;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button btnWeek09;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
@@ -494,11 +393,9 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button btnWeek06;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button btnWeek13;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnWeek12;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button btnWeek16;
         private System.Windows.Forms.Label lblWeek04;
         private System.Windows.Forms.Label lblWeek03;
         private System.Windows.Forms.Label lblWeek02;

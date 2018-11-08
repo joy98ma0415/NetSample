@@ -54,6 +54,7 @@
             this.button20 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
+            this.button26 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -375,7 +376,7 @@
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(315, 37);
             this.button17.TabIndex = 28;
-            this.button17.Text = "back";
+            this.button17.Text = "離開";
             this.button17.UseVisualStyleBackColor = false;
             this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
@@ -415,7 +416,7 @@
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button21.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button21.ForeColor = System.Drawing.SystemColors.Control;
-            this.button21.Location = new System.Drawing.Point(274, 173);
+            this.button21.Location = new System.Drawing.Point(274, 215);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(55, 37);
             this.button21.TabIndex = 56;
@@ -424,12 +425,28 @@
             this.button21.Visible = false;
             this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
+            // button26
+            // 
+            this.button26.BackColor = System.Drawing.Color.Gray;
+            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button26.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button26.ForeColor = System.Drawing.SystemColors.Control;
+            this.button26.Location = new System.Drawing.Point(274, 173);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(55, 37);
+            this.button26.TabIndex = 57;
+            this.button26.Text = "x^3";
+            this.button26.UseVisualStyleBackColor = false;
+            this.button26.Visible = false;
+            this.button26.Click += new System.EventHandler(this.button26_Click);
+            // 
             // Week01
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(341, 298);
+            this.Controls.Add(this.button26);
             this.Controls.Add(this.button21);
             this.Controls.Add(this.button23);
             this.Controls.Add(this.button20);
@@ -492,5 +509,6 @@
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button button26;
     }
 }

@@ -57,5 +57,10 @@ namespace _10202_CS_Project
             str1 += "請於 " + date2 + " 23:00 前取票 !";
             MessageBox.Show(str1);
         }
+
+        private void txtId_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

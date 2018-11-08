@@ -54,6 +54,7 @@
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(100, 22);
             this.txtId.TabIndex = 32;
+            this.txtId.TextChanged += new System.EventHandler(this.txtId_TextChanged);
             // 
             // btnOK
             // 
@@ -72,9 +73,8 @@
             this.lblTotal.Font = new System.Drawing.Font("新細明體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblTotal.Location = new System.Drawing.Point(123, 297);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(41, 15);
+            this.lblTotal.Size = new System.Drawing.Size(0, 15);
             this.lblTotal.TabIndex = 47;
-            this.lblTotal.Text = "label9";
             // 
             // label8
             // 
@@ -234,7 +234,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(67, 30);
             this.button1.TabIndex = 48;
-            this.button1.Text = "back";
+            this.button1.Text = "離開";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 

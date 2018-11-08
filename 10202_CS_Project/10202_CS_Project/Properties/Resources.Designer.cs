@@ -59,5 +59,15 @@ namespace _10202_CS_Project.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_离开_15 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-离开-15", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

@@ -30,6 +30,11 @@ namespace _10202_CS_Project
             axWindowsMediaPlayer1.URL = path[listBox1.SelectedIndex];
         }
 
+        private void Week08_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)

@@ -44,7 +44,7 @@
             this.btnEnd.Name = "btnEnd";
             this.btnEnd.Size = new System.Drawing.Size(53, 21);
             this.btnEnd.TabIndex = 24;
-            this.btnEnd.Text = "結束";
+            this.btnEnd.Text = "離開";
             this.btnEnd.UseVisualStyleBackColor = true;
             this.btnEnd.Click += new System.EventHandler(this.btnEnd_Click);
             // 

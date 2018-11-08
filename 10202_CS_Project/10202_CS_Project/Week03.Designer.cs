@@ -37,6 +37,7 @@
             this.integerText1 = new System.Windows.Forms.TextBox();
             this.integerLabel1 = new System.Windows.Forms.Label();
             this.computeButton = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lcmText
@@ -113,11 +114,23 @@
             this.computeButton.UseVisualStyleBackColor = true;
             this.computeButton.Click += new System.EventHandler(this.computeButton_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(297, 106);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "離開";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Week03
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(384, 91);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(384, 141);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lcmText);
             this.Controls.Add(this.lcmLabel);
             this.Controls.Add(this.gcdText);
@@ -145,5 +158,6 @@
         private System.Windows.Forms.TextBox integerText1;
         private System.Windows.Forms.Label integerLabel1;
         private System.Windows.Forms.Button computeButton;
+        private System.Windows.Forms.Button button1;
     }
 }

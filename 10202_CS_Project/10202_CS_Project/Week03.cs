@@ -34,5 +34,12 @@ namespace _10202_CS_Project
             int lcm = Convert.ToInt32(integerText1.Text) * Convert.ToInt32(integerText2.Text) / gcd;
             lcmText.Text = lcm.ToString();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 home = new Form1();
+            this.Visible = false;
+            home.Visible = true;
+        }
     }
 }

@@ -81,7 +81,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(284, 31);
             this.button2.TabIndex = 7;
-            this.button2.Text = "back";
+            this.button2.Text = "離開";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -97,6 +97,7 @@
             this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Name = "Week08";
             this.Text = "第八周 多媒體播放器";
+            this.Load += new System.EventHandler(this.Week08_Load);
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             this.ResumeLayout(false);
 

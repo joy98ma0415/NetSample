@@ -190,5 +190,14 @@ namespace _10202_CS_Project
         {
             button21.Enabled = false;
         }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            double baseNumber = Convert.ToDouble(textBox1.Text);
+            double a = 3;
+            double result = Math.Pow(baseNumber, a);
+            textBox1.Text = result.ToString();
+
+        }
     }
 }
