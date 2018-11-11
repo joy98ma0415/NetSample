@@ -10,69 +10,60 @@
 namespace ishopping_website {
     
     
-    public partial class SiteMaster {
+    public partial class Default {
         
         /// <summary>
-        /// Image1 控制項。
+        /// Table2 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image1;
+        protected global::System.Web.UI.WebControls.Table Table2;
         
         /// <summary>
-        /// MainContent 控制項。
+        /// Calendar1 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.Calendar Calendar1;
         
         /// <summary>
-        /// HyperLink_常見問題 控制項。
+        /// Panel2 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink_常見問題;
+        protected global::System.Web.UI.WebControls.Panel Panel2;
         
         /// <summary>
-        /// HyperLink_隱私權說明 控制項。
+        /// Panel1 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink_隱私權說明;
+        protected global::System.Web.UI.WebControls.Panel Panel1;
         
         /// <summary>
-        /// HyperLink_交易安全 控制項。
+        /// ListView2 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink_交易安全;
+        protected global::System.Web.UI.WebControls.ListView ListView2;
         
         /// <summary>
-        /// HyperLink_服務條款 控制項。
+        /// SqlDataSource1 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink_服務條款;
-        
-        /// <summary>
-        /// HyperLink_相關連結 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink_相關連結;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
     }
 }

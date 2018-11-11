@@ -7,72 +7,54 @@
 // </自動產生的>
 //------------------------------------------------------------------------------
 
-namespace ishopping_website {
+namespace CRUD_Web {
     
     
-    public partial class SiteMaster {
+    public partial class WebForm1 {
         
         /// <summary>
-        /// Image1 控制項。
+        /// form1 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// MainContent 控制項。
+        /// Label1 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// HyperLink_常見問題 控制項。
+        /// SqlDataSource1 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink_常見問題;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
         
         /// <summary>
-        /// HyperLink_隱私權說明 控制項。
+        /// DetailsView1 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink_隱私權說明;
+        protected global::System.Web.UI.WebControls.DetailsView DetailsView1;
         
         /// <summary>
-        /// HyperLink_交易安全 控制項。
+        /// GridView1 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink_交易安全;
-        
-        /// <summary>
-        /// HyperLink_服務條款 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink_服務條款;
-        
-        /// <summary>
-        /// HyperLink_相關連結 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink_相關連結;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
     }
 }

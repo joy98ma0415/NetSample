@@ -105,11 +105,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\shopDB.mdf" />
+    <Content Include="App_Data\shopDB_log.ldf">
+      <DependentUpon>shopDB.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -122,6 +127,181 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="images\035-512.png" />
+    <Content Include="images\20081214160223781.png" />
+    <Content Include="images\20160504141717573.jpg" />
+    <Content Include="images\2244.png" />
+    <Content Include="images\31201508251724248139.png" />
+    <Content Include="images\37d58PICHAW_1024.jpg" />
+    <Content Include="images\5-120601094544.gif" />
+    <Content Include="images\5-120601094P5-50.gif" />
+    <Content Include="images\583baaa34443c_1024.jpg" />
+    <Content Include="images\711_logo.jpg" />
+    <Content Include="images\applepay.png" />
+    <Content Include="images\BG1.gif" />
+    <Content Include="images\cart.png" />
+    <Content Include="images\delete.png" />
+    <Content Include="images\email.gif" />
+    <Content Include="images\enter.gif" />
+    <Content Include="images\home.png" />
+    <Content Include="images\icon-4.png" />
+    <Content Include="images\images.png" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\page2_img1.jpg" />
+    <Content Include="images\page2_img2.jpg" />
+    <Content Include="images\page2_img3 .jpg" />
+    <Content Include="images\page2_img4.jpg" />
+    <Content Include="images\page2_img5.jpg" />
+    <Content Include="images\page2_img6.jpg" />
+    <Content Include="images\page2_img7.jpg" />
+    <Content Include="images\page2_img8.jpg" />
+    <Content Include="images\pay.png" />
+    <Content Include="images\pic04.png" />
+    <Content Include="images\pn_icon_03.png" />
+    <Content Include="images\X型雙向減壓足弓船短襪.jpg" />
+    <Content Include="images\一鹿順風麋鹿擺飾松木杯架.jpg" />
+    <Content Include="images\中華古坑咖啡豆.jpg" />
+    <Content Include="images\中華古坑濾掛式咖啡.jpg" />
+    <Content Include="images\乳油木牛奶皂.jpg" />
+    <Content Include="images\乳油木馬鞭草皂.jpg" />
+    <Content Include="images\井茶局logo.png" />
+    <Content Include="images\伊度錶 EDOX.jpg" />
+    <Content Include="images\低糖豆奶.jpg" />
+    <Content Include="images\保暖連帽外套.jpg" />
+    <Content Include="images\健康五趾襪.jpg" />
+    <Content Include="images\側襬開衩垂墜感純色V領七分袖寬鬆弧襬上衣.jpg" />
+    <Content Include="images\光澤感可愛絨毛立體耳朵連帽休閒外套.jpg" />
+    <Content Include="images\創意視覺無印風格手錶.jpg" />
+    <Content Include="images\北極簡約休閒尼龍中性手錶.jpg" />
+    <Content Include="images\千鳥格紋立體蝴蝶結鬆緊髮帶.jpg" />
+    <Content Include="images\可可脆片早餐脆片.jpg" />
+    <Content Include="images\可愛蓬鬆設計款墜子.jpg" />
+    <Content Include="images\可拆式連帽腰綁帶修身毛呢長版外套.jpg" />
+    <Content Include="images\嚴選英倫格紋雙釦2WAY連帽披肩圍巾.jpg" />
+    <Content Include="images\圓領短T.jpg" />
+    <Content Include="images\圓領設計連袖優雅厚雪紡上衣.jpg" />
+    <Content Include="images\夏季海洋風格單品彈性圓領短T.jpg" />
+    <Content Include="images\女孩必搭玫瑰金韓系手錶.jpg" />
+    <Content Include="images\女款愛心除臭抑菌短襪.jpg" />
+    <Content Include="images\女款發熱踝襪.jpg" />
+    <Content Include="images\女款船型發熱襪.jpg" />
+    <Content Include="images\女款菱格除臭抑菌短襪.jpg" />
+    <Content Include="images\女款除臭抑菌短襪%28格紋%29.jpg" />
+    <Content Include="images\女款除臭抑菌緹花踝襪.jpg" />
+    <Content Include="images\女款除臭抑菌隱形襪.jpg" />
+    <Content Include="images\字母潮流圓領短T.jpg" />
+    <Content Include="images\家鑰匙圈鑰匙掛.jpg" />
+    <Content Include="images\小蘇打防蹣潔白洗衣粉.jpg" />
+    <Content Include="images\尼斯湖水怪泡茶器.jpg" />
+    <Content Include="images\層次彈性金屬鍊太陽綴飾項鍊.jpg" />
+    <Content Include="images\彩虹色手工水瓶扣帶.jpg" />
+    <Content Include="images\後背鏤空綁帶前襟打褶點點細條印花透光感壓皺上衣.jpg" />
+    <Content Include="images\復古仿木紋錶殼直感皮革手錶.jpg" />
+    <Content Include="images\復活節島摩艾巨石像馬克杯.jpg" />
+    <Content Include="images\微彈性圓領短T.jpg" />
+    <Content Include="images\抑菌休閒運動襪.jpg" />
+    <Content Include="images\掀蓋保溫杯泡茶杯茶格設計.jpg" />
+    <Content Include="images\提拉米蘇.jpg" />
+    <Content Include="images\插卡WIFI智慧型手錶.jpg" />
+    <Content Include="images\撞色織女星抽鬚滾邊圍巾.jpg" />
+    <Content Include="images\撞色設計胸前印字高含棉連帽背心.jpg" />
+    <Content Include="images\文青牛仔雙色書衣.jpg" />
+    <Content Include="images\斗篷外套.jpg" />
+    <Content Include="images\新活恆白15合1CC霜.jpg" />
+    <Content Include="images\新活恆白3D纖維面膜.jpg" />
+    <Content Include="images\有機螺旋藻800錠 3入.jpg" />
+    <Content Include="images\杏仁去角質皂.jpg" />
+    <Content Include="images\東方系列 潤膚乳液.jpg" />
+    <Content Include="images\東方藥草系列 身體乳.jpg" />
+    <Content Include="images\柔軟質感童趣風手繪印花圓領上衣.jpg" />
+    <Content Include="images\森林果醬-草莓.jpg" />
+    <Content Include="images\植萃亮妍淨白凍膜.jpg" />
+    <Content Include="images\極暖舒適內搖粒絨鋪棉前短後長連帽背心.jpg" />
+    <Content Include="images\樹葉印花鏤空條拼接長袖V領上衣.jpg" />
+    <Content Include="images\毛毛連帽軍裝大衣外套.jpg" />
+    <Content Include="images\毛球墜飾純色麻花針織連帽圍巾.jpg" />
+    <Content Include="images\民俗風項鍊.jpg" />
+    <Content Include="images\流蘇點綴方格織紋透光感薄圍巾.jpg" />
+    <Content Include="images\滿版全素雲彩微彈性V領短T.jpg" />
+    <Content Include="images\滿版童趣燙印設計襯衫.jpg" />
+    <Content Include="images\滿版迷彩前短後長側襬開衩抽繩連帽長版上衣.jpg" />
+    <Content Include="images\無磷酵素洗衣粉 4.5kg.jpg" />
+    <Content Include="images\牛皮男用皮夾.jpg" />
+    <Content Include="images\甜美碎花流蘇綁帶造型抓皺設計七分袖寬鬆上衣.jpg" />
+    <Content Include="images\男款發熱踝襪.jpg" />
+    <Content Include="images\男款除臭抑菌踝襪.jpg" />
+    <Content Include="images\百搭設計款針織圍巾.jpg" />
+    <Content Include="images\磁吸漱口杯組牙刷架.jpg" />
+    <Content Include="images\立體菠蘿壓紋尾端抽鬚薄圍巾.jpg" />
+    <Content Include="images\簡約復刻版霧面中性手錶.jpg" />
+    <Content Include="images\簡約配色方格抽鬚圍巾.jpg" />
+    <Content Include="images\紅豆紫米堅果飲.jpg" />
+    <Content Include="images\純米系列 茉莉身體乳.jpg" />
+    <Content Include="images\純色流蘇造型披肩.jpg" />
+    <Content Include="images\純色細皺柔料下襬抓皺七分喇叭袖一字領上衣.jpg" />
+    <Content Include="images\素寶錠葉酸.jpg" />
+    <Content Include="images\素色輕鋪棉抽繩顯瘦連帽插肩袖長版外套.jpg" />
+    <Content Include="images\紫菜杯湯.jpg" />
+    <Content Include="images\細百褶圓弧下擺鏤空背釦素色無袖上衣.jpg" />
+    <Content Include="images\繽紛鳳梨印花V領雪紡連袖上衣.jpg" />
+    <Content Include="images\羅馬數字刻度獨立秒盤手錶.jpg" />
+    <Content Include="images\翠玉絲瓜粥.jpg" />
+    <Content Include="images\聖沛黎洛氣泡礦泉水 750ml.jpg" />
+    <Content Include="images\自然植萃修護素.jpg" />
+    <Content Include="images\自然植萃洗髮精.jpg" />
+    <Content Include="images\自然植萃潤髮乳.jpg" />
+    <Content Include="images\色質感針織不收邊圍巾.jpg" />
+    <Content Include="images\芒果提拉米蘇.jpg" />
+    <Content Include="images\芭芒柳汁 250mlx24.jpg" />
+    <Content Include="images\英文燙印素色條絨棒球帽.jpg" />
+    <Content Include="images\范倫鐵諾Valentino極簡手錶.jpg" />
+    <Content Include="images\草本經典系列 身體蘇芙蕾.jpg" />
+    <Content Include="images\草莓布朗尼蛋糕.jpg" />
+    <Content Include="images\葡萄乾杏仁燕麥片1.35kg.jpg" />
+    <Content Include="images\蕾絲鏤空叉肩袖後挖背綁帶上衣.jpg" />
+    <Content Include="images\蝴蝶結抓皺不規則擺竹節棉上衣.jpg" />
+    <Content Include="images\豆乳雞白湯湯包.jpg" />
+    <Content Include="images\質感金屬不規則層次圓弧造型手環.jpg" />
+    <Content Include="images\質感麻花編織造型金屬手環.jpg" />
+    <Content Include="images\超濃縮洗衣粉.jpg" />
+    <Content Include="images\超濃縮洗衣粉補充包.jpg" />
+    <Content Include="images\趣味人像燙印輕柔奧黛爾棉長版T恤.jpg" />
+    <Content Include="images\輕壓力氣墊機能襪.jpg" />
+    <Content Include="images\輕壓力足弓船短襪.jpg" />
+    <Content Include="images\輕鋪棉磨毛面料X羊羔毛連帽棒球外套.jpg" />
+    <Content Include="images\辛拉麵 120g x 4包.jpg" />
+    <Content Include="images\連帽抽繩蜜桃絨嚴選風衣外套.jpg" />
+    <Content Include="images\配色格紋翻領設計V字開釦高棉量寬鬆上衣.jpg" />
+    <Content Include="images\配色迷彩印花抽鬚滾邊圍巾.jpg" />
+    <Content Include="images\野菜菇菇粥.jpg" />
+    <Content Include="images\鏤空裸膚布蕾絲開叉下襬長版上衣.jpg" />
+    <Content Include="images\長款錢包.jpg" />
+    <Content Include="images\開襟荷葉造型立領襯衫.jpg" />
+    <Content Include="images\防水蠶絲蠟線.jpg" />
+    <Content Include="images\附腰帶仿皮草連帽高填充羽絨長版外套.jpg" />
+    <Content Include="images\雙側翼護足輕壓力船短襪.jpg" />
+    <Content Include="images\雙素色拼接短T.jpg" />
+    <Content Include="images\雙色方塊字母設計微彈性圓領短T.jpg" />
+    <Content Include="images\雙色細條紋設計短T.jpg" />
+    <Content Include="images\香木系列 潤膚乳液.jpg" />
+    <Content Include="images\香滑花生醬 454g.jpg" />
+    <Content Include="images\香脆麥米片370g.jpg" />
+    <Content Include="images\騰刺繡貓眼釦短袖刷白牛仔襯衫.jpg" />
+    <Content Include="images\高含棉純色手臂挖空側面立體抓皺長版上衣.jpg" />
+    <Content Include="images\鮮奶雞蛋布丁.jpg" />
+    <Content Include="images\鯊魚齒袖設計微彈性圓領短T.jpg" />
+    <Content Include="images\麻花拼色氣墊船短襪.jpg" />
+    <Content Include="images\黑方框WESTLTD字母混色微彈性圓領短T.jpg" />
+    <Content Include="img\1.jpg" />
+    <Content Include="img\2.jpg" />
+    <Content Include="img\3.jpg" />
+    <Content Include="img\4.jpg" />
+    <Content Include="img\btns-next-prev.png" />
+    <Content Include="img\example-slide-1.jpg" />
+    <Content Include="img\example-slide-2.jpg" />
+    <Content Include="img\example-slide-3.jpg" />
+    <Content Include="img\example-slide-4.jpg" />
+    <Content Include="img\pagination.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -159,6 +339,13 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -185,9 +372,7 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
