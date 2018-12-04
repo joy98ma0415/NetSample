@@ -1,2 +1,2 @@
 # NetSample
-Net Sample Code
+C#.Net Sample Code
